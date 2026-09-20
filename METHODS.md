@@ -42,4 +42,4 @@ Per-system contrasts use paired differences, source-book-stratified bootstrap in
 
 The current 19-system aggregate is 68.82% without RAG and 73.67% with RAG: +4.85 percentage points. Earlier 20-system summaries are not the primary cohort. The saved aggregate estimates are in `results/analysis/clinical/AGGREGATE_RESULTS.json` and are reproduced by notebook 09.
 
-Model-size associations use the eight local parameter counts. Closed-model parameter counts are unknown and are not treated as measured values. Family, architecture, training and size are confounded in this small model sample. GPU measurements report allocated and reserved memory separately; hardware, prompt length and deployment differences limit latency comparisons.
+Model-size associations regress the mean NF4/BF16 RAG effect on log₂ parameter count across the eight local models. Closed-model parameter counts are unknown and are not treated as measured values. Family, architecture, training and size are confounded in this small model sample. GPU measurements report allocated and reserved memory separately; hardware, prompt length and deployment differences limit latency comparisons.
