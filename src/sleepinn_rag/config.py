@@ -1,0 +1,9 @@
+"""Frozen structural-context settings."""
+USE_CONTEXTUAL_CHUNKS = True
+CONTEXTUAL_CHUNK_STYLE = "structured"
+INCLUDE_DOC_TITLE = True
+INCLUDE_CHAPTER = True
+INCLUDE_SECTION = True
+INCLUDE_SUBSECTION = True
+INCLUDE_PAGE = True
+INCLUDE_CHUNK_TYPE = True

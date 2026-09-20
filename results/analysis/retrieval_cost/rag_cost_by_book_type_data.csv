@@ -1,0 +1,61 @@
+book,item_type,question_type,strategy,method,questions,estimated_compute_ms,evidence_recall_at5_pct,mean_context_tokens
+Total,all,All questions,dense_raw,Dense retrieval,1215,8.790949896903577,81.30864197530863,2052.5489711934156
+Total,all,All questions,bm25_only,BM25,1215,26.199507895749736,69.05349794238683,1890.1185185185186
+Total,all,All questions,dense_bm25_interleave,Dense + BM25 interleave,1215,28.20920531062888,80.78737997256515,1957.2551440329219
+Total,all,All questions,scope_hybrid_rrf_rerank_jiwar,SCOPE hybrid + reranking + Jiwar,1215,154.54545050972553,82.56515775034295,1652.630452674897
+Total,all,All questions,scope_hybrid_rrf_rerank_mq_jiwar,Same SCOPE configuration + multi-query,1215,1083.9833112528743,82.85322359396434,1676.1407407407407
+AASM,all,All questions,dense_raw,Dense retrieval,215,8.586043799887738,80.0,2161.7441860465115
+AASM,all,All questions,bm25_only,BM25,215,21.68684369602864,71.62790697674419,2005.0372093023257
+AASM,all,All questions,dense_bm25_interleave,Dense + BM25 interleave,215,23.859503194198545,83.72093023255815,2090.618604651163
+AASM,all,All questions,scope_hybrid_rrf_rerank_jiwar,SCOPE hybrid + reranking + Jiwar,215,136.2075712888478,90.0,1769.260465116279
+AASM,all,All questions,scope_hybrid_rrf_rerank_mq_jiwar,Same SCOPE configuration + multi-query,215,832.0411169403071,90.0,1767.1441860465115
+ICSD-3-TR,all,All questions,dense_raw,Dense retrieval,1000,8.835004707761982,81.58999999999999,2029.072
+ICSD-3-TR,all,All questions,bm25_only,BM25,1000,27.16973069868977,68.5,1865.411
+ICSD-3-TR,all,All questions,dense_bm25_interleave,Dense + BM25 interleave,1000,29.144391265661397,80.15666666666667,1928.582
+ICSD-3-TR,all,All questions,scope_hybrid_rrf_rerank_jiwar,SCOPE hybrid + reranking + Jiwar,1000,158.48809454221427,80.96666666666667,1627.555
+ICSD-3-TR,all,All questions,scope_hybrid_rrf_rerank_mq_jiwar,Same SCOPE configuration + multi-query,1000,1138.150883030076,81.31666666666668,1656.575
+Total,mcq,Multiple-choice,dense_raw,Dense retrieval,702,8.973502374552107,81.93257359924027,2072.4415954415954
+Total,mcq,Multiple-choice,bm25_only,BM25,702,26.739664773783062,71.1775878442545,1889.1851851851852
+Total,mcq,Multiple-choice,dense_bm25_interleave,Dense + BM25 interleave,702,28.74855983415775,80.72174738841404,1968.6524216524217
+Total,mcq,Multiple-choice,scope_hybrid_rrf_rerank_jiwar,SCOPE hybrid + reranking + Jiwar,702,156.70513949309353,81.86134852801518,1646.548433048433
+Total,mcq,Multiple-choice,scope_hybrid_rrf_rerank_mq_jiwar,Same SCOPE configuration + multi-query,702,1099.771529918657,82.0750237416904,1666.537037037037
+AASM,mcq,Multiple-choice,dense_raw,Dense retrieval,84,8.643638541841241,83.33333333333334,2195.6309523809523
+AASM,mcq,Multiple-choice,bm25_only,BM25,84,22.642725746014243,76.19047619047619,2010.8333333333333
+AASM,mcq,Multiple-choice,dense_bm25_interleave,Dense + BM25 interleave,84,24.81906731312207,85.71428571428571,2130.1071428571427
+AASM,mcq,Multiple-choice,scope_hybrid_rrf_rerank_jiwar,SCOPE hybrid + reranking + Jiwar,84,137.89694438029838,94.04761904761905,1778.6785714285713
+AASM,mcq,Multiple-choice,scope_hybrid_rrf_rerank_mq_jiwar,Same SCOPE configuration + multi-query,84,852.6268783482471,92.85714285714286,1778.4166666666667
+ICSD-3-TR,mcq,Multiple-choice,dense_raw,Dense retrieval,618,9.018338235308923,81.74217907227616,2055.697411003236
+ICSD-3-TR,mcq,Multiple-choice,bm25_only,BM25,618,27.2965302727031,70.49622437971952,1872.6504854368932
+ICSD-3-TR,mcq,Multiple-choice,dense_bm25_interleave,Dense + BM25 interleave,618,29.282665613716,80.04314994606257,1946.7071197411003
+ICSD-3-TR,mcq,Multiple-choice,scope_hybrid_rrf_rerank_jiwar,SCOPE hybrid + reranking + Jiwar,618,159.26159319774533,80.20496224379718,1628.588996763754
+ICSD-3-TR,mcq,Multiple-choice,scope_hybrid_rrf_rerank_mq_jiwar,Same SCOPE configuration + multi-query,618,1133.36400683114,80.60949298813375,1651.3300970873786
+Total,free_text_qa,Free-text,dense_raw,Dense retrieval,400,8.561716783289741,80.625,1995.31
+Total,free_text_qa,Free-text,bm25_only,BM25,400,26.174313987139563,72.375,1876.91
+Total,free_text_qa,Free-text,dense_bm25_interleave,Dense + BM25 interleave,400,28.182346104142194,81.875,1923.79
+Total,free_text_qa,Free-text,scope_hybrid_rrf_rerank_jiwar,SCOPE hybrid + reranking + Jiwar,400,153.38108919529174,82.25,1634.5025
+Total,free_text_qa,Free-text,scope_hybrid_rrf_rerank_mq_jiwar,Same SCOPE configuration + multi-query,400,1081.8326315671832,82.875,1665.86
+AASM,free_text_qa,Free-text,dense_raw,Dense retrieval,81,8.547225926460442,77.77777777777779,2119.4938271604938
+AASM,free_text_qa,Free-text,bm25_only,BM25,81,20.662890045823087,70.37037037037037,1992.6543209876543
+AASM,free_text_qa,Free-text,dense_bm25_interleave,Dense + BM25 interleave,81,22.833782828491543,81.48148148148148,2042.283950617284
+AASM,free_text_qa,Free-text,scope_hybrid_rrf_rerank_jiwar,SCOPE hybrid + reranking + Jiwar,81,134.72439296566785,87.65432098765432,1750.0987654320988
+AASM,free_text_qa,Free-text,scope_hybrid_rrf_rerank_mq_jiwar,Same SCOPE configuration + multi-query,81,819.4865455146105,88.88888888888889,1743.1728395061727
+ICSD-3-TR,free_text_qa,Free-text,dense_raw,Dense retrieval,319,8.565396279851411,81.34796238244513,1963.7774294670846
+ICSD-3-TR,free_text_qa,Free-text,bm25_only,BM25,319,27.57376646126695,72.88401253918495,1847.5203761755486
+ICSD-3-TR,free_text_qa,Free-text,dense_bm25_interleave,Dense + BM25 interleave,319,29.540445243100518,81.97492163009404,1893.7021943573668
+ICSD-3-TR,free_text_qa,Free-text,scope_hybrid_rrf_rerank_jiwar,SCOPE hybrid + reranking + Jiwar,319,158.1183694291461,80.87774294670847,1605.1504702194356
+ICSD-3-TR,free_text_qa,Free-text,scope_hybrid_rrf_rerank_mq_jiwar,Same SCOPE configuration + multi-query,319,1148.447154984921,81.34796238244513,1646.2288401253918
+Total,criteria_qa,Criteria,dense_raw,Dense retrieval,113,8.468307473330714,79.85250737463126,2131.5840707964603
+Total,criteria_qa,Criteria,bm25_only,BM25,113,22.933025020215837,44.100294985250734,1942.6725663716813
+Total,criteria_qa,Criteria,dense_bm25_interleave,Dense + BM25 interleave,113,24.953601833437745,77.34513274336283,2004.9115044247787
+Total,criteria_qa,Criteria,scope_hybrid_rrf_rerank_jiwar,SCOPE hybrid + reranking + Jiwar,113,145.25025457564763,88.05309734513274,1754.58407079646
+Total,criteria_qa,Criteria,scope_hybrid_rrf_rerank_mq_jiwar,Same SCOPE configuration + multi-query,113,993.5137747121379,87.61061946902655,1772.1946902654868
+AASM,criteria_qa,Criteria,dense_raw,Dense retrieval,50,8.552169588358078,78.0,2173.26
+AASM,criteria_qa,Criteria,bm25_only,BM25,50,21.739766765385816,65.99999999999999,2015.36
+AASM,criteria_qa,Criteria,dense_bm25_interleave,Dense + BM25 interleave,50,23.909102466852342,84.0,2102.58
+AASM,criteria_qa,Criteria,scope_hybrid_rrf_rerank_jiwar,SCOPE hybrid + reranking + Jiwar,50,135.77217337876212,87.0,1784.48
+AASM,criteria_qa,Criteria,scope_hybrid_rrf_rerank_mq_jiwar,Same SCOPE configuration + multi-query,50,817.7954434845964,87.0,1787.04
+ICSD-3-TR,criteria_qa,Criteria,dense_raw,Dense retrieval,63,8.401750239182016,81.32275132275132,2098.5079365079364
+ICSD-3-TR,criteria_qa,Criteria,bm25_only,BM25,63,23.88005538119205,26.71957671957672,1884.984126984127
+ICSD-3-TR,criteria_qa,Criteria,dense_bm25_interleave,Dense + BM25 interleave,63,25.78256958469599,72.06349206349206,1927.3968253968253
+ICSD-3-TR,criteria_qa,Criteria,scope_hybrid_rrf_rerank_jiwar,SCOPE hybrid + reranking + Jiwar,63,152.77254123984247,88.88888888888889,1730.857142857143
+ICSD-3-TR,criteria_qa,Criteria,scope_hybrid_rrf_rerank_mq_jiwar,Same SCOPE configuration + multi-query,63,1132.9727677498688,88.09523809523809,1760.4126984126983

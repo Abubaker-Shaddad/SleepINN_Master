@@ -1,0 +1,10 @@
+{
+  "knowledge_items": 1215,
+  "clinical_cases": 120,
+  "human_review": "The thesis author reports that a sleep expert completed review of both datasets and confirmed the supplied final content.",
+  "basis": "Author-reported completion; no retrospective item-level decisions have been manufactured.",
+  "final_content": "Knowledge follows the saved AI-revised set. Clinical follows the saved source-based cases. The author reported no further content changes at human review.",
+  "interface": "New reviews use the accept/reject/correct interface in notebooks 02 and 03. Every item needs an explicit decision before export.",
+  "public_projection": "Question and reference-answer content is preserved. Verbatim evidence excerpts and internal authoring metadata are omitted. Source names and page references remain.",
+  "automated_answer_scoring": "Separate from dataset review. The supplied clinical results use the recorded Gemini and GLM labels; they are not a per-response expert scoring ledger."
+}

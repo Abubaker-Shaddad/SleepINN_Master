@@ -1,0 +1,6 @@
+strategy,label,questions,estimated_compute_ms,evidence_recall_at5_pct,mean_context_tokens
+dense_raw,Dense retrieval,1215,8.790949896903625,81.30864197530863,2052.5489711934156
+bm25_only,BM25,1215,26.199507895749782,69.05349794238683,1890.1185185185186
+dense_bm25_interleave,Dense + BM25 interleave,1215,28.209205310628924,80.78737997256516,1957.2551440329219
+scope_hybrid_rrf_rerank_jiwar,SCOPE + hybrid + reranking + Jiwar without multi-query,1215,154.54545050972558,82.56515775034293,1652.630452674897
+scope_hybrid_rrf_rerank_mq_jiwar,SCOPE + hybrid + reranking + Jiwar with multi-query,1215,1083.9833112528743,82.85322359396433,1676.1407407407407

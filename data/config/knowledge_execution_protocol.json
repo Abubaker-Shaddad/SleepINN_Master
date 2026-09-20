@@ -1,0 +1,27 @@
+{
+  "seed": 20260915,
+  "max_new_tokens": 1024,
+  "do_sample": false,
+  "enable_thinking": false,
+  "batch_size": 1,
+  "quantization": "bitsandbytes 0.50.2 NF4, double quantization, BF16 computation; large unquantized experts cause a failure, not a silent precision change.",
+  "runtime": "Torch 2.11.0+cu128; Transformers 5.17.0, except isolated 4.57.1 for the upstream Spark custom architecture.",
+  "spark_compatibility": "Pinned upstream custom source; two activation casts changed from stored weight dtype to quantized layer compute dtype. Both source hashes recorded in model manifest.",
+  "spark_original_modeling_sha256": "9cf0d1ad2b54b9f7088792779ddd8b5cb4d4fe63bfea054da7f2dd16362bcaf4",
+  "retrieval": "Frozen scope_hybrid_rrf_rerank_jiwar; same saved text for every model, no answer keys in prompts.",
+  "context": "Audit all prompts with each tokenizer; fail on context overflow; never truncate passages.",
+  "order": "Twelve stratified pilot IDs first, then remaining saved dataset order. Rotate the three conditions by question index.",
+  "timing": "GPU-synchronized single-request generation after warmup. Excludes download/loading/tokenization and cached retrieval; batch throughput not measured.",
+  "description": "Scientific settings for the published thesis cohort; operational scheduling is omitted.",
+  "local_models": 8,
+  "questions": 1215,
+  "conditions": [
+    "no_rag",
+    "with_rag",
+    "perfect_retrieval"
+  ],
+  "local_precisions": [
+    "NF4"
+  ],
+  "published_answers": 29160
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "icsd3_historical_generation_instructions.md",
+    "source_sha256": "290b58204a97cab3989e57090dd35eefde629f8e8830deb2236466262512fc3a",
+    "release_sha256": "290b58204a97cab3989e57090dd35eefde629f8e8830deb2236466262512fc3a",
+    "transformation": "byte-identical"
+  },
+  {
+    "file": "icsd3_historical_prompt_assembly.txt",
+    "source_sha256": "7fbfa68a52bb2d822733787abee65d9dff3e8a4f61524fc93ae704b0dcd2434a",
+    "release_sha256": "5d231c383ec5e11d6085a484bc44890c64ac94ea5867d691d77ed5f80caeae13",
+    "transformation": "AST-located build_generation_prompt function extracted verbatim; final newline appended"
+  }
+]

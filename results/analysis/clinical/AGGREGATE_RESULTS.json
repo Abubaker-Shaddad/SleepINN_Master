@@ -1,0 +1,93 @@
+{
+  "source": "results/analysis/clinical/judge_comparison_19_systems.csv",
+  "method": "Equal weight per model/precision system for RAG; equal weight per matched model/retrieval condition for precision. Correct=1, partial/incorrect=0. Both responses require exact two-judge consensus.",
+  "inference": "30000 paired case-cluster bootstrap resamples within six books, same sampled cases for all fixed systems. 100000 shared-case sign permutations, unadjusted exploratory two-sided p values, sign-symmetry assumption. Monte Carlo add-one correction.",
+  "scope": "Conditional consensus-selected benchmark summaries; fixed evaluated models. Not a meta-analysis of independent studies, not physician-validated accuracy, and not evidence of equivalence. No inference to unseen model families.",
+  "random_seed": 20260919,
+  "paid_api_calls": 0,
+  "original_results_unchanged": true,
+  "results": [
+    {
+      "label": "rag_all_19_systems",
+      "fixed_comparison_groups": 19,
+      "eligible_case_group_pairs": 1831,
+      "unique_cases": 120,
+      "before_equal_group_mean_pct": 68.82421216947998,
+      "after_equal_group_mean_pct": 73.66925077547296,
+      "delta_pp": 4.845038605992974,
+      "ci95_case_cluster_bootstrap_pp": [
+        0.7284114511321395,
+        9.04700869989021
+      ],
+      "case_cluster_sign_permutation_p_unadjusted": 0.031789682103178965,
+      "positive_group_effects": 15,
+      "negative_group_effects": 4
+    },
+    {
+      "label": "rag_local_16_systems",
+      "fixed_comparison_groups": 16,
+      "eligible_case_group_pairs": 1492,
+      "unique_cases": 120,
+      "before_equal_group_mean_pct": 63.19961983395063,
+      "after_equal_group_mean_pct": 69.00446760077433,
+      "delta_pp": 5.804847766823708,
+      "ci95_case_cluster_bootstrap_pp": [
+        0.9081749598036847,
+        10.802488719728863
+      ],
+      "case_cluster_sign_permutation_p_unadjusted": 0.02980970190298097,
+      "positive_group_effects": 14,
+      "negative_group_effects": 2
+    },
+    {
+      "label": "precision_all_16_conditions",
+      "fixed_comparison_groups": 16,
+      "eligible_case_group_pairs": 1510,
+      "unique_cases": 120,
+      "before_equal_group_mean_pct": 64.95649230458636,
+      "after_equal_group_mean_pct": 68.59651752226918,
+      "delta_pp": 3.6400252176828327,
+      "ci95_case_cluster_bootstrap_pp": [
+        2.1723507531206754,
+        5.135517782347565
+      ],
+      "case_cluster_sign_permutation_p_unadjusted": 1.999980000199998e-05,
+      "positive_group_effects": 14,
+      "negative_group_effects": 2
+    },
+    {
+      "label": "precision_no_rag",
+      "fixed_comparison_groups": 8,
+      "eligible_case_group_pairs": 757,
+      "unique_cases": 120,
+      "before_equal_group_mean_pct": 61.06615697591795,
+      "after_equal_group_mean_pct": 66.54542504994723,
+      "delta_pp": 5.479268074029267,
+      "ci95_case_cluster_bootstrap_pp": [
+        3.3780172444121934,
+        7.621229884273928
+      ],
+      "case_cluster_sign_permutation_p_unadjusted": 9.99990000099999e-06,
+      "positive_group_effects": 8,
+      "negative_group_effects": 0
+    },
+    {
+      "label": "precision_with_rag",
+      "fixed_comparison_groups": 8,
+      "eligible_case_group_pairs": 753,
+      "unique_cases": 120,
+      "before_equal_group_mean_pct": 68.84682763325473,
+      "after_equal_group_mean_pct": 70.64760999459114,
+      "delta_pp": 1.800782361336398,
+      "ci95_case_cluster_bootstrap_pp": [
+        -0.046998682251387654,
+        3.6696789257903193
+      ],
+      "case_cluster_sign_permutation_p_unadjusted": 0.07006929930700694,
+      "positive_group_effects": 6,
+      "negative_group_effects": 2
+    }
+  ],
+  "historical_source_sha256": "fd9683a2bd80168dda6efd8eb033f1187d4f4e8509863d0aa388f77f8f1071e9",
+  "public_source_sha256": "c3b80a82848ce4a37496b036fe5c8c8af9ea11585c41e6c582308e935322bb58"
+}

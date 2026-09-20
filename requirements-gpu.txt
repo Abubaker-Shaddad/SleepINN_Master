@@ -1,0 +1,12 @@
+# Install a compatible PyTorch build separately; see REPRODUCING.md.
+-r requirements-analysis.txt
+transformers==5.17.0
+bitsandbytes==0.50.2
+accelerate==1.15.0
+huggingface-hub==1.31.0
+sentencepiece==0.2.2
+sentence-transformers>=3
+rank-bm25==0.2.2
+PyMuPDF>=1.24
+langchain-core>=0.3
+langchain-text-splitters>=0.3

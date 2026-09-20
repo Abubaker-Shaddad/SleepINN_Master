@@ -1,0 +1,67 @@
+{
+  "openai": {
+    "model": "gpt-5.5-2026-04-23",
+    "endpoint": "https://api.openai.com/v1/responses",
+    "settings": {
+      "reasoning": {
+        "effort": "none"
+      },
+      "temperature": 0,
+      "max_output_tokens": 1024,
+      "store": false
+    },
+    "input_usd_per_million": 5,
+    "output_usd_per_million": 30
+  },
+  "gemini": {
+    "model": "gemini-3.8-flash",
+    "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent",
+    "settings": {
+      "generationConfig": {
+        "maxOutputTokens": 1024,
+        "thinkingConfig": {
+          "thinkingLevel": "LOW"
+        }
+      }
+    },
+    "input_usd_per_million": 0.75,
+    "output_usd_per_million": 3.75
+  },
+  "openrouter": {
+    "model": "anthropic/claude-opus-4.8",
+    "canonical": "anthropic/claude-4.8-opus-20260528",
+    "provider": "Anthropic",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "input_rate": 5,
+    "output_rate": 25,
+    "settings": {
+      "max_tokens": 1024,
+      "reasoning": {
+        "enabled": false,
+        "exclude": true
+      },
+      "stream": false,
+      "provider": {
+        "only": [
+          "anthropic"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "max_price": {
+          "prompt": 5,
+          "completion": 25
+        }
+      },
+      "plugins": [
+        {
+          "id": "web",
+          "enabled": false
+        },
+        {
+          "id": "context-compression",
+          "enabled": false
+        }
+      ]
+    }
+  }
+}

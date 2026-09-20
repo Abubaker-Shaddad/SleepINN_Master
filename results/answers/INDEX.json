@@ -1,0 +1,307 @@
+[
+  {
+    "dataset": "knowledge",
+    "precision": "NF4",
+    "model_id": "google/gemma-3-12b-it",
+    "rows": 3645,
+    "conditions": {
+      "no_rag": 1215,
+      "with_rag": 1215,
+      "perfect_retrieval": 1215
+    },
+    "file": "results/answers/knowledge/NF4/google--gemma-3-12b-it.jsonl"
+  },
+  {
+    "dataset": "knowledge",
+    "precision": "NF4",
+    "model_id": "google/gemma-3-27b-it",
+    "rows": 3645,
+    "conditions": {
+      "no_rag": 1215,
+      "with_rag": 1215,
+      "perfect_retrieval": 1215
+    },
+    "file": "results/answers/knowledge/NF4/google--gemma-3-27b-it.jsonl"
+  },
+  {
+    "dataset": "knowledge",
+    "precision": "NF4",
+    "model_id": "google/gemma-4-12B-it",
+    "rows": 3645,
+    "conditions": {
+      "no_rag": 1215,
+      "with_rag": 1215,
+      "perfect_retrieval": 1215
+    },
+    "file": "results/answers/knowledge/NF4/google--gemma-4-12B-it.jsonl"
+  },
+  {
+    "dataset": "knowledge",
+    "precision": "NF4",
+    "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "rows": 3645,
+    "conditions": {
+      "no_rag": 1215,
+      "with_rag": 1215,
+      "perfect_retrieval": 1215
+    },
+    "file": "results/answers/knowledge/NF4/meta-llama--Llama-3.1-8B-Instruct.jsonl"
+  },
+  {
+    "dataset": "knowledge",
+    "precision": "NF4",
+    "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+    "rows": 3645,
+    "conditions": {
+      "no_rag": 1215,
+      "with_rag": 1215,
+      "perfect_retrieval": 1215
+    },
+    "file": "results/answers/knowledge/NF4/meta-llama--Llama-3.2-1B-Instruct.jsonl"
+  },
+  {
+    "dataset": "knowledge",
+    "precision": "NF4",
+    "model_id": "microsoft/phi-4",
+    "rows": 3645,
+    "conditions": {
+      "no_rag": 1215,
+      "with_rag": 1215,
+      "perfect_retrieval": 1215
+    },
+    "file": "results/answers/knowledge/NF4/microsoft--phi-4.jsonl"
+  },
+  {
+    "dataset": "knowledge",
+    "precision": "NF4",
+    "model_id": "Qwen/Qwen3.8-27B",
+    "rows": 3645,
+    "conditions": {
+      "no_rag": 1215,
+      "with_rag": 1215,
+      "perfect_retrieval": 1215
+    },
+    "file": "results/answers/knowledge/NF4/Qwen--Qwen3.8-27B.jsonl"
+  },
+  {
+    "dataset": "knowledge",
+    "precision": "NF4",
+    "model_id": "XHToken/Spark-X2.5-4B",
+    "rows": 3645,
+    "conditions": {
+      "no_rag": 1215,
+      "with_rag": 1215,
+      "perfect_retrieval": 1215
+    },
+    "file": "results/answers/knowledge/NF4/XHToken--Spark-X2.5-4B.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "NF4",
+    "model_id": "google/gemma-3-12b-it",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/NF4/google--gemma-3-12b-it.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "NF4",
+    "model_id": "google/gemma-3-27b-it",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/NF4/google--gemma-3-27b-it.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "NF4",
+    "model_id": "google/gemma-4-12B-it",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/NF4/google--gemma-4-12B-it.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "NF4",
+    "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/NF4/meta-llama--Llama-3.1-8B-Instruct.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "NF4",
+    "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/NF4/meta-llama--Llama-3.2-1B-Instruct.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "NF4",
+    "model_id": "microsoft/phi-4",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/NF4/microsoft--phi-4.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "NF4",
+    "model_id": "Qwen/Qwen3.8-27B",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/NF4/Qwen--Qwen3.8-27B.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "NF4",
+    "model_id": "XHToken/Spark-X2.5-4B",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/NF4/XHToken--Spark-X2.5-4B.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "BF16",
+    "model_id": "google/gemma-3-12b-it",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/BF16/google--gemma-3-12b-it.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "BF16",
+    "model_id": "google/gemma-4-12B-it",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/BF16/google--gemma-4-12B-it.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "BF16",
+    "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/BF16/meta-llama--Llama-3.1-8B-Instruct.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "BF16",
+    "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/BF16/meta-llama--Llama-3.2-1B-Instruct.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "BF16",
+    "model_id": "microsoft/phi-4",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/BF16/microsoft--phi-4.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "BF16",
+    "model_id": "XHToken/Spark-X2.5-4B",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/BF16/XHToken--Spark-X2.5-4B.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "BF16",
+    "model_id": "google/gemma-3-27b-it",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/BF16/google--gemma-3-27b-it.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "BF16",
+    "model_id": "Qwen/Qwen3.8-27B",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/BF16/Qwen--Qwen3.8-27B.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "API",
+    "model_id": "gemini-3.8-flash",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/API/gemini-3.8-flash.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "API",
+    "model_id": "gpt-5.5-2026-04-23",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/API/gpt-5.5-2026-04-23.jsonl"
+  },
+  {
+    "dataset": "clinical",
+    "precision": "API",
+    "model_id": "anthropic/claude-opus-4.8",
+    "rows": 240,
+    "conditions": {
+      "no_rag": 120,
+      "with_rag": 120
+    },
+    "file": "results/answers/clinical/API/anthropic--claude-opus-4.8.jsonl"
+  }
+]

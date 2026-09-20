@@ -1,0 +1,10 @@
+Component,Parent,Child,Difference (percentage points),Improved questions,Worsened questions
+Abbreviation expansion,dense_raw,dense_only,-4.21124828532236,12,66
+Add BM25 with balanced merge,dense_only,dense_bm25_interleave,3.6899862825788756,105,61
+RRF versus interleave,dense_bm25_interleave,hybrid_rrf,-1.5144032921810702,84,104
+BM25 related-term expansion,hybrid_rrf_no_terms,hybrid_rrf,-0.24691358024691357,5,8
+Reranking,hybrid_rrf,hybrid_rrf_rerank,-15.18792866941015,98,283
+SCOPE,hybrid_rrf_rerank,scope_hybrid_rrf_rerank,15.646090534979423,223,27
+Jiwar,scope_hybrid_rrf_rerank,scope_hybrid_rrf_rerank_jiwar,2.834019204389575,54,9
+Multi-query,scope_hybrid_rrf_rerank_jiwar,scope_hybrid_rrf_rerank_mq_jiwar,0.2880658436213992,21,16
+Page aggregation,scope_hybrid_rrf_rerank_jiwar,scope_hybrid_rrf_rerank_pageagg_jiwar,-5.1440329218107,40,102

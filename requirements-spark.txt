@@ -1,0 +1,8 @@
+# Use a separate environment; do not combine with requirements-gpu.txt.
+-r requirements-analysis.txt
+transformers==4.57.1
+bitsandbytes==0.50.2
+accelerate==1.15.0
+huggingface-hub>=0.34,<1
+sentencepiece==0.2.2
+einops>=0.8

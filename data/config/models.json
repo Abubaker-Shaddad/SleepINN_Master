@@ -1,0 +1,224 @@
+[
+  {
+    "name": "Llama 3.2 1B Instruct",
+    "model_id": "meta-llama/Llama-3.2-1B-Instruct",
+    "revision": "9213176726f574b556790deb65791e0c5aa438b6",
+    "architecture": [
+      "LlamaForCausalLM"
+    ],
+    "safetensors": {
+      "parameters": {
+        "BF16": 1235814400
+      },
+      "total": 1235814400
+    },
+    "model_card": "https://huggingface.co/meta-llama/Llama-3.2-1B-Instruct",
+    "provider": "huggingface",
+    "transformers": "5.17.0",
+    "knowledge_precisions": [
+      "NF4"
+    ],
+    "clinical_precisions": [
+      "NF4",
+      "BF16"
+    ]
+  },
+  {
+    "name": "Llama 3.1 8B Instruct",
+    "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "architecture": [
+      "LlamaForCausalLM"
+    ],
+    "safetensors": {
+      "parameters": {
+        "BF16": 8030261248
+      },
+      "total": 8030261248
+    },
+    "model_card": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "provider": "huggingface",
+    "transformers": "5.17.0",
+    "knowledge_precisions": [
+      "NF4"
+    ],
+    "clinical_precisions": [
+      "NF4",
+      "BF16"
+    ]
+  },
+  {
+    "name": "Gemma 3 12B IT",
+    "model_id": "google/gemma-3-12b-it",
+    "revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+    "architecture": [
+      "Gemma3ForConditionalGeneration"
+    ],
+    "safetensors": {
+      "parameters": {
+        "BF16": 12187325040
+      },
+      "total": 12187325040
+    },
+    "model_card": "https://huggingface.co/google/gemma-3-12b-it",
+    "provider": "huggingface",
+    "transformers": "5.17.0",
+    "knowledge_precisions": [
+      "NF4"
+    ],
+    "clinical_precisions": [
+      "NF4",
+      "BF16"
+    ]
+  },
+  {
+    "name": "Gemma 3 27B IT",
+    "model_id": "google/gemma-3-27b-it",
+    "revision": "005ad3404e59d6023443cb575daa05336842228a",
+    "architecture": [
+      "Gemma3ForConditionalGeneration"
+    ],
+    "safetensors": {
+      "parameters": {
+        "BF16": 27432406640
+      },
+      "total": 27432406640
+    },
+    "model_card": "https://huggingface.co/google/gemma-3-27b-it",
+    "provider": "huggingface",
+    "transformers": "5.17.0",
+    "knowledge_precisions": [
+      "NF4"
+    ],
+    "clinical_precisions": [
+      "NF4",
+      "BF16"
+    ]
+  },
+  {
+    "name": "Gemma 4 12B IT",
+    "model_id": "google/gemma-4-12B-it",
+    "revision": "707f0a3b8a3c7ad586ed01e27eafbad8a27dd0f7",
+    "architecture": [
+      "Gemma4UnifiedForConditionalGeneration"
+    ],
+    "safetensors": {
+      "parameters": {
+        "BF16": 11959730224
+      },
+      "total": 11959730224
+    },
+    "model_card": "https://huggingface.co/google/gemma-4-12B-it",
+    "provider": "huggingface",
+    "transformers": "5.17.0",
+    "knowledge_precisions": [
+      "NF4"
+    ],
+    "clinical_precisions": [
+      "NF4",
+      "BF16"
+    ]
+  },
+  {
+    "name": "Qwen 3.8 27B",
+    "model_id": "Qwen/Qwen3.8-27B",
+    "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+    "architecture": [
+      "Qwen3_5ForConditionalGeneration"
+    ],
+    "safetensors": {
+      "parameters": {
+        "BF16": 27781427952
+      },
+      "total": 27781427952
+    },
+    "model_card": "https://huggingface.co/Qwen/Qwen3.8-27B",
+    "provider": "huggingface",
+    "transformers": "5.17.0",
+    "knowledge_precisions": [
+      "NF4"
+    ],
+    "clinical_precisions": [
+      "NF4",
+      "BF16"
+    ]
+  },
+  {
+    "name": "Spark-X2.5-4B",
+    "model_id": "XHToken/Spark-X2.5-4B",
+    "revision": "0bcb35678590218655dff3765b9e61c83b35e9c4",
+    "architecture": [
+      "Spark2_5ForCausalLM"
+    ],
+    "safetensors": {
+      "parameters": {
+        "BF16": 4112079360
+      },
+      "total": 4112079360
+    },
+    "model_card": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+    "provider": "huggingface",
+    "transformers": "4.57.1",
+    "knowledge_precisions": [
+      "NF4"
+    ],
+    "clinical_precisions": [
+      "NF4",
+      "BF16"
+    ]
+  },
+  {
+    "name": "Phi-4 (14B)",
+    "model_id": "microsoft/phi-4",
+    "revision": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+    "architecture": [
+      "Phi3ForCausalLM"
+    ],
+    "safetensors": {
+      "parameters": {
+        "BF16": 14659507200
+      },
+      "total": 14659507200
+    },
+    "model_card": "https://huggingface.co/microsoft/phi-4",
+    "provider": "huggingface",
+    "transformers": "5.17.0",
+    "knowledge_precisions": [
+      "NF4"
+    ],
+    "clinical_precisions": [
+      "NF4",
+      "BF16"
+    ]
+  },
+  {
+    "name": "Gemini 3.8 Flash",
+    "model_id": "gemini-3.8-flash",
+    "provider": "gemini",
+    "knowledge_precisions": [],
+    "clinical_precisions": [
+      "API"
+    ],
+    "parameters": null
+  },
+  {
+    "name": "GPT 5.5",
+    "model_id": "gpt-5.5-2026-04-23",
+    "provider": "openai",
+    "knowledge_precisions": [],
+    "clinical_precisions": [
+      "API"
+    ],
+    "parameters": null
+  },
+  {
+    "name": "Claude Opus 4.8",
+    "model_id": "anthropic/claude-opus-4.8",
+    "provider": "openrouter",
+    "knowledge_precisions": [],
+    "clinical_precisions": [
+      "API"
+    ],
+    "parameters": null
+  }
+]
